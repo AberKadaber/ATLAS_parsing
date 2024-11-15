@@ -1,0 +1,1420 @@
+2024-08-25 12:23:19 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 12:23:19 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 12:23:19 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 12:23:20 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 12:23:21 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 12:23:21 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 12:23:21 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 12:23:21 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 12:23:22 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 12:23:22 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 12:23:22 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 12:23:22 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 12:23:22 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 12:23:22 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 12:23:22 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 12:23:26 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 12:23:26 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 12:23:26 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 12:23:26 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 12:23:26 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:23:26 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 12:23:26 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 12:23:26 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 12:23:26 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 12:23:26 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 12:23:26 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 12:23:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 12:23:27 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 12:23:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 12:23:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 12:23:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:23:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581430.203 -1 7001001021 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:23:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581435.452 -1 7001001027 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:23:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581437.527 -1 7001001018 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581440.202 -1 7001001021 { BS_RSSI: -44.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581445.453 -1 7001001027 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581447.527 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581450.204 -1 7001001021 { BS_RSSI: -66.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581455.451 -1 7001001027 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581457.526 -1 7001001018 { BS_RSSI: -69.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581460.201 -1 7001001021 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581465.449 -1 7001001027 { BS_RSSI: -72.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581467.525 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:24:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:24:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581470.203 -1 7001001021 { BS_RSSI: -67.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581475.451 -1 7001001027 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581477.525 -1 7001001018 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581480.199 -1 7001001021 { BS_RSSI: -44.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581485.448 -1 7001001027 { BS_RSSI: -45.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581487.525 -1 7001001018 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581490.198 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581495.446 -1 7001001027 { BS_RSSI: -72.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:24:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581497.523 -1 7001001018 { BS_RSSI: -66.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581500.198 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581505.447 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581507.524 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581510.197 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581515.446 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581517.524 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581520.197 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581525.445 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581527.525 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:25:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:25:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581530.196 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581535.445 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581537.522 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581540.195 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581545.444 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581547.521 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581550.195 -1 7001001021 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581555.444 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:25:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581557.521 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581560.195 -1 7001001021 { BS_RSSI: -80.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581577.520 -1 7001001018 { BS_RSSI: -100.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:26:27 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:26:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581595.442 -1 7001001027 { BS_RSSI: -77.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581597.520 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581600.192 -1 7001001021 { BS_RSSI: -69.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581605.442 -1 7001001027 { BS_RSSI: -78.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581607.519 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581610.193 -1 7001001021 { BS_RSSI: -70.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581615.442 -1 7001001027 { BS_RSSI: -78.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:26:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581617.518 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581620.191 -1 7001001021 { BS_RSSI: -71.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581625.442 -1 7001001027 { BS_RSSI: -77.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581627.518 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581630.191 -1 7001001021 { BS_RSSI: -69.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581635.441 -1 7001001027 { BS_RSSI: -77.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581637.520 -1 7001001018 { BS_RSSI: -68.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581640.192 -1 7001001021 { BS_RSSI: -71.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581645.440 -1 7001001027 { BS_RSSI: -77.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:27:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:27:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581660.190 -1 7001001021 { BS_RSSI: -92.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581667.516 -1 7001001018 { BS_RSSI: -79.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581670.190 -1 7001001021 { BS_RSSI: -82.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:27:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581677.516 -1 7001001018 { BS_RSSI: -88.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581680.189 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581685.439 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581687.518 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581690.188 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581695.438 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581697.515 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581700.188 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581705.438 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581707.517 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:28:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:28:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581710.190 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581715.438 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581717.515 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581720.188 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581725.438 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581727.517 -1 7001001018 { BS_RSSI: -50.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581730.186 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581735.436 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:28:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581737.514 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581740.186 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581745.436 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581747.514 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581750.186 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581755.437 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581757.513 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581760.185 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581765.435 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581767.512 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:29:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:29:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581770.186 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581775.437 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581777.512 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581780.184 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581785.436 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581787.511 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581790.184 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581795.435 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:29:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581797.511 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581800.183 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581805.434 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581807.511 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581810.183 -1 7001001021 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581815.433 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581817.510 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581820.183 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581825.433 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581827.510 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:30:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:30:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581830.181 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581835.433 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581837.510 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581840.182 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581845.432 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581847.509 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581850.181 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581855.432 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:30:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581857.509 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581860.181 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581865.432 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581867.508 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581870.181 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581875.431 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581877.508 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581880.180 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581885.431 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581887.508 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:31:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:31:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581890.180 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581895.430 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581897.507 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581900.179 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581905.430 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581907.507 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581910.178 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581915.430 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:31:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581917.506 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581920.178 -1 7001001021 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581925.429 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581927.506 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581930.177 -1 7001001021 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581935.429 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581937.506 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581940.177 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581945.428 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581947.506 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:32:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:32:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581950.176 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581955.427 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581957.505 -1 7001001018 { BS_RSSI: -50.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581960.176 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581965.427 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581967.505 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581970.175 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581975.427 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:32:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581977.503 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581980.175 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581985.429 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581987.503 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581990.174 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581995.426 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724581997.503 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582000.174 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582005.426 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582007.502 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:33:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:33:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582010.173 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582015.425 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582017.502 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582020.173 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582025.425 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582027.502 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582030.172 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582035.424 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:33:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582037.503 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582040.173 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582045.424 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582047.501 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582050.172 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582055.424 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582057.501 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582060.171 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582065.423 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582067.499 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:34:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:34:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582070.171 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582075.423 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582077.500 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582080.170 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582085.423 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582087.499 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582090.169 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582095.422 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:34:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582097.499 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582100.170 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582105.422 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582107.498 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582110.169 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582115.421 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582117.497 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582120.168 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582125.420 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582127.498 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:35:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:35:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582130.167 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582135.421 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582137.497 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582140.167 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582145.420 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582147.496 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582150.168 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582155.419 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:35:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582157.497 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582160.171 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582165.420 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582167.495 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582170.167 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582175.419 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582177.495 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582180.166 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582185.418 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582187.495 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:36:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:36:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582190.170 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582195.417 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582197.494 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582200.164 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582205.422 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582207.494 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582210.163 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582215.417 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:36:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582217.494 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582220.165 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582225.416 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582227.494 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582230.163 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582235.417 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582237.493 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582240.163 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582245.416 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582247.493 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:37:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:37:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582250.163 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582255.416 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582257.493 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582260.161 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582265.416 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582267.491 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582270.161 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582275.414 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:37:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582277.491 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582280.161 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582285.414 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582287.490 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582290.160 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582295.414 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582297.493 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582300.159 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582305.414 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582307.491 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:38:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:38:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582310.160 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582315.414 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582317.489 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582320.158 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582325.412 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582327.489 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582330.158 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582335.414 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:38:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582337.490 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582340.157 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582345.412 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582347.488 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582350.157 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582355.411 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582357.488 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582360.157 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582365.411 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582367.488 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:39:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:39:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582370.156 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582375.411 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582377.487 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582380.158 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582385.410 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582387.486 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582390.157 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582395.410 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:39:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582397.485 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582400.154 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582405.409 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582407.486 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582410.154 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582415.409 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582417.485 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582420.154 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582425.413 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582427.484 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:40:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:40:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582430.153 -1 7001001021 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582435.407 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582437.484 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582440.152 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582445.407 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582447.484 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582450.152 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582455.407 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:40:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582457.484 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582460.152 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582465.407 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582467.483 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582470.151 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582475.406 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582477.482 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582480.150 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582485.405 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582487.482 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:41:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:41:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582490.150 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582495.405 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582497.481 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582500.149 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582505.405 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582507.481 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582510.149 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582515.405 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:41:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582517.480 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582520.149 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582525.404 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582527.481 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582530.148 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582535.404 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582537.480 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582540.148 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582545.403 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582547.480 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:42:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:42:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582550.148 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582555.403 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582557.480 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582560.147 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582565.402 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582567.478 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582570.146 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582575.403 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:42:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582577.480 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582580.146 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582585.403 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582587.478 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582590.145 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582595.401 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582597.478 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582600.145 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582605.401 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582607.477 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:43:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:43:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582610.145 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582615.401 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582617.476 -1 7001001018 { BS_RSSI: -50.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582620.144 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582625.400 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582627.479 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582630.144 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582635.402 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:43:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582637.479 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582640.142 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582645.399 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582647.475 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582650.143 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:44:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:44:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582690.141 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582695.398 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:44:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582697.473 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582700.142 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582705.399 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582707.472 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582710.140 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582715.397 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582717.473 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582720.139 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582725.396 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582727.473 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:45:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:45:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582730.141 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582735.395 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582737.471 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582740.138 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582745.395 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582747.471 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582750.138 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582755.394 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:45:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582757.471 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582760.143 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582765.394 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582767.470 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582770.137 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582775.394 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582777.471 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582780.138 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582785.394 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582787.469 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:46:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:46:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582790.136 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582795.394 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582797.470 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582800.135 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582805.392 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582807.469 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582810.137 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582815.394 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:46:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582817.470 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582820.135 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582825.392 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582827.467 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582830.134 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582835.391 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582837.468 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582840.137 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582845.391 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582847.467 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:47:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:47:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582850.134 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582855.391 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582857.467 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582860.133 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582865.392 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582867.466 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582870.132 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582875.390 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:47:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582877.466 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582880.132 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582885.389 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582887.465 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582890.132 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582895.388 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582897.465 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582900.131 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582905.388 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582907.465 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:48:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:48:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582910.130 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582915.389 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582917.464 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582920.130 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582925.388 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582927.464 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582930.135 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582935.388 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:48:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582937.463 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582940.137 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582945.387 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582947.463 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582950.176 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582955.387 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582957.463 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582960.133 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582965.385 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582967.463 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:49:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:49:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582970.137 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582975.385 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582977.461 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582980.127 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582985.385 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582987.461 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582990.126 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582995.385 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:49:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724582997.460 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583000.131 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583005.385 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583007.461 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583010.125 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583015.385 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583017.461 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583020.125 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583025.383 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583027.459 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:50:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:50:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583030.125 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583035.384 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583037.459 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583040.124 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583045.383 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583047.461 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583050.124 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583055.383 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:50:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583057.459 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583060.126 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583065.382 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583067.457 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583070.122 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583075.381 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583077.457 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583080.122 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583085.381 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583087.456 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:51:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:51:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583090.121 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583095.381 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583097.457 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583100.121 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583105.380 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583107.455 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583110.121 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583115.380 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:51:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583117.456 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583120.121 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583125.379 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583127.455 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583130.120 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583135.378 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583137.455 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583140.119 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583145.378 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583147.454 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:52:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:52:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583150.118 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583155.378 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583157.454 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583160.118 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583165.377 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583167.453 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583170.121 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:52:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583175.378 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:53:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:53:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:53:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583230.115 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:53:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583235.374 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:53:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583237.450 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583240.114 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583245.374 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583247.450 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583250.114 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583255.374 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583257.449 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583260.113 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583265.373 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583267.449 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:54:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:54:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583270.112 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583275.373 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583277.449 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583280.112 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583285.378 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583287.448 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583290.111 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583295.372 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:54:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583297.448 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583300.111 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583305.372 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583307.447 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583310.110 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583315.371 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583317.446 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583320.110 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583325.370 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583327.447 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:55:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:55:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583330.109 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583335.370 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583337.446 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583340.109 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583345.371 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583347.446 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583350.108 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583355.371 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:55:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583357.445 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583360.108 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583365.369 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583367.445 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583370.108 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583375.369 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583377.444 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583380.107 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583385.368 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583387.444 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:56:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:56:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583390.107 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583395.368 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583397.444 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583400.107 -1 7001001021 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583405.368 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583407.444 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583410.106 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583415.368 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:56:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583417.443 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583420.106 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583425.367 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583427.443 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583430.104 -1 7001001021 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583435.366 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583437.442 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583440.104 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583445.366 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583447.442 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:57:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:57:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583450.105 -1 7001001021 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583455.365 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583457.441 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583460.103 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583465.366 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583467.444 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583470.104 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583475.365 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:57:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583477.440 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:00 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583480.110 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583485.364 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583487.440 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:10 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583490.103 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583495.364 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583497.440 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:20 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583500.102 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583505.364 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583507.439 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:58:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 12:58:30 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583510.102 -1 7001001021 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583515.364 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583517.439 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:40 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583520.100 -1 7001001021 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583525.363 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583527.438 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:50 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583530.100 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583535.363 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:58:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724583537.437 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 12:59:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 12:59:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 13:00:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 13:00:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 13:01:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 13:01:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 13:02:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 13:02:29 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+
+2024-08-25 14:01:46 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:01:46 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:01:46 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:01:47 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:01:47 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:01:47 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:01:47 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:01:47 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:01:47 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:01:48 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:01:48 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:01:50 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:01:50 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:01:50 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:01:50 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:01:50 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:01:50 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:01:50 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:01:50 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:01:50 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 14:01:50 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 14:01:50 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 14:01:53 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 14:01:53 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:01:53 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 14:01:53 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 14:01:53 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:16:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588167.223 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:16:07 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:16:07 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:16:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588169.857 -1 7001001021 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:16:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588175.170 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+                                                                                                                                                                                                                               
+2024-08-25 14:17:54 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:17:54 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:17:54 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:17:55 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:17:55 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:17:55 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:17:55 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:17:56 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:17:56 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:17:56 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:17:56 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:17:56 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:17:56 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:18:01 [Timer-0] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:18:01 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 10 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:18:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:18:02 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@c7b4de
+2024-08-25 14:18:02 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:18:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:18:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:18:02 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:18:02 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:18:02 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:18:02 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 14:18:02 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 14:18:02 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 14:18:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 14:18:12 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:18:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 14:18:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 14:18:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:18:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588339.248 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:01 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588341.306 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:03 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588343.939 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588349.246 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:11 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588351.305 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:19:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:19:13 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588353.938 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588359.246 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:21 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588361.305 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:23 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588363.938 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588369.245 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:31 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588371.304 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:33 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588373.938 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588379.246 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:41 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588381.304 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:43 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588383.937 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588389.244 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:51 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588391.303 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:19:53 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588393.935 -1 7001001021 { BS_RSSI: -99.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:20:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:20:12 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:21:10 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - INTERRUPTING...
+
+2024-08-25 14:21:10 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - TERMINATING...
+
+2024-08-25 14:21:10 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - PORT CLOSED
+
+
+2024-08-25 14:21:29 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:21:30 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:21:30 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:21:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:21:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:21:31 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:21:31 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:21:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:21:31 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:21:31 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:21:31 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:21:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:21:33 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:21:33 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:21:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:21:33 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:21:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:21:33 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:21:33 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:21:33 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+2024-08-25 14:22:54 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:22:54 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:22:54 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:22:55 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:22:55 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:22:55 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:22:55 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:22:55 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:22:55 2024-08-25 14:28:56 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:28:56 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:28:56 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:28:57 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:28:57 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:28:57 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:28:57 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:28:57 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:28:57 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:28:57 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:28:57 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:28:59 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:29:00 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:29:00 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:29:00 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:29:00 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:29:00 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:29:00 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:29:00 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:29:00 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 14:29:00 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 14:29:00 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 14:29:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 14:29:03 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:29:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 14:29:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 14:29:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:29:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588995.159 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:29:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588997.215 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:29:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724588999.844 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:30:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:30:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589005.158 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589007.215 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589009.844 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589015.157 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589017.214 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589019.845 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589025.155 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589027.212 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589029.841 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589035.154 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589037.210 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589039.839 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589045.152 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589047.208 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589049.837 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589055.150 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589057.207 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:30:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589059.836 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:31:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:31:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589065.150 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589067.206 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589069.836 -1 7001001021 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589075.149 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589077.206 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589079.834 -1 7001001021 { BS_RSSI: -65.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589085.148 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589087.205 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589089.833 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589095.148 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589097.205 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589099.833 -1 7001001021 { BS_RSSI: -65.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589105.147 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589107.204 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589109.833 -1 7001001021 { BS_RSSI: -65.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589115.146 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589117.203 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:31:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589119.831 -1 7001001021 { BS_RSSI: -74.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:32:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:32:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589125.146 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589127.203 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589129.831 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589135.145 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589137.202 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589139.830 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589145.145 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589147.202 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589149.830 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589155.144 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589157.200 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589159.830 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589165.144 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589167.200 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589169.828 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589175.144 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589177.199 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:32:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589179.833 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:33:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:33:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589185.142 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589187.199 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589189.827 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589195.142 -1 7001001027 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589197.198 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589199.827 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589205.141 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589207.198 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589209.826 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589215.141 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589217.197 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589219.826 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589225.140 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589227.197 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589229.825 -1 7001001021 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589235.140 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589237.195 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:33:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589239.823 -1 7001001021 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:34:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:34:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589245.139 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589247.195 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589249.823 -1 7001001021 { BS_RSSI: -64.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589255.138 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589257.194 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589259.822 -1 7001001021 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589265.138 -1 7001001027 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589267.194 -1 7001001018 { BS_RSSI: -54.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589269.822 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589275.143 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589277.193 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589279.821 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589285.137 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589287.192 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589289.821 -1 7001001021 { BS_RSSI: -69.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589295.138 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589297.192 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:34:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589299.826 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:35:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:35:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589305.136 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589307.192 -1 7001001018 { BS_RSSI: -51.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589309.821 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:15 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589315.136 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:17 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589317.191 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589319.820 -1 7001001021 { BS_RSSI: -60.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:25 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589325.135 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589327.191 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589329.818 -1 7001001021 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:35 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589335.134 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:37 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589337.191 -1 7001001018 { BS_RSSI: -53.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589339.823 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:45 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589345.133 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:47 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589347.191 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:49 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589349.818 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:55 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589355.133 -1 7001001027 { BS_RSSI: -57.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:57 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589357.190 -1 7001001018 { BS_RSSI: -52.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:35:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589359.817 -1 7001001021 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:36:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:36:03 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:36:05 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589365.133 -1 7001001027 { BS_RSSI: -58.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:36:07 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589367.188 -1 7001001018 { BS_RSSI: -50.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:36:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589369.815 -1 7001001021 { BS_RSSI: -59.0, TAG_STATE: 00 0 0 needs_config?=false, }
+
+2024-08-25 14:38:24 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:38:24 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:38:24 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:38:25 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:38:26 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:38:26 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:38:26 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:38:26 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:38:26 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:38:26 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:38:26 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:38:26 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:38:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:38:28 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:38:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:38:28 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:38:28 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:38:28 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:38:28 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:38:28 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:38:28 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 14:38:28 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 14:38:28 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 14:38:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 14:38:31 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:38:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 14:38:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 14:38:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:39:22 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589562.461 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:39:24 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589564.513 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:39:27 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589567.135 -1 7001001021 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:39:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 14:39:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:39:32 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589572.459 -1 7001001027 { BS_RSSI: -56.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:39:34 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724589574.513 -1 7001001018 { BS_RSSI: -55.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:49:59 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724590199.788 -1 7001001021 { BS_RSSI: -74.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 14:50:04 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - INTERRUPTING...
+
+2024-08-25 14:50:04 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - TERMINATING...
+
+2024-08-25 14:50:04 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - PORT CLOSED
+
+
+2024-08-25 14:51:00 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:51:00 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:51:00 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:51:01 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:51:01 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:51:01 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:51:01 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:51:01 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:51:01 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:51:01 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:51:01 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:51:04 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:51:04 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:51:04 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:51:04 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:51:04 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:51:04 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:51:04 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:51:04 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:51:04 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+2024-08-25 14:50:58 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 14:50:58 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 14:50:58 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 14:50:59 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 14:50:59 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 14:50:59 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 14:50:59 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 14:50:59 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 14:50:59 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 14:51:00 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 14:51:00 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 14:51:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 14:51:02 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 14:51:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 14:51:02 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 14:51:02 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 14:51:02 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 14:51:02 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 14:51:02 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 14:51:02 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+2024-08-25 17:24:28 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 17:24:28 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 17:24:28 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:24:29 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 17:24:29 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 17:24:29 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 17:24:29 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 17:24:29 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 17:24:29 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 17:24:29 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 17:24:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 17:24:31 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 17:24:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 17:24:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 17:24:31 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 17:24:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 17:24:31 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:24:31 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 17:24:31 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+2024-08-25 17:24:29 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 17:24:29 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 17:24:29 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:24:30 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 17:24:30 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 17:24:30 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 17:24:31 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 17:24:31 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 17:24:31 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 17:24:31 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 17:24:31 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 17:24:31 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 17:24:31 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 17:24:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 17:24:33 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 17:24:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 17:24:33 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 17:24:33 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:24:33 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 17:24:33 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 17:24:33 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 17:24:33 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            2024-08-25 17:40:47 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 17:40:47 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 17:40:47 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:40:48 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 17:40:48 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 17:40:49 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 17:40:49 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 17:40:49 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 17:40:49 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 17:40:49 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 17:40:49 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 17:40:49 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 17:40:49 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 17:40:49 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 17:40:49 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 17:40:49 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 17:40:51 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 17:40:51 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 17:40:51 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 17:40:51 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 17:40:51 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:40:51 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 17:40:51 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 17:40:51 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 17:40:51 [Thread-6] ERROR tau.atlas.vildehaye.SerialPortRXTX - serial port /dev/ttyACM0 does not exist, exiting
+
+2024-08-25 17:50:42 [main] INFO  tau.atlas.util.Version - version 1070 2018-04-17 stable
+2024-08-25 17:50:42 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading certificates
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Running on Android = false
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore keystore.jks
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Kestore keystore.jks not found
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Trying to load kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Getting instance of KeyStore
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Loading KeyStore from file
+2024-08-25 17:50:42 [main] INFO  tau.atlas.configuration.Certificates - Got instance of KeyStore, creating SSL contexts
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.Certificates - Loaded kestore /home/dk/.atlas/keystore.jks
+2024-08-25 17:50:43 [main] INFO  tau.atlas.vildehaye.VHBasestation - Initializaing System Reference
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - ensuring configuration file exists
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in home directory
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - trying to load catalog in local directory
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - trying to load vildehaye-setups in home directory
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - setting up password configuration
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.SystemReference - init done
+2024-08-25 17:50:43 [main] INFO  tau.atlas.vildehaye.VHBasestation - Loading System
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.Loader - Loading system name from arguments
+2024-08-25 17:50:43 [main] WARN  tau.atlas.configuration.Loader - Running with an empty system
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.Loader - Adding system properties from arguments
+
+2024-08-25 17:50:43 [main] INFO  tau.atlas.configuration.Loader - serialPort ==> /dev/ttyACM0
+2024-08-25 17:50:43 [main] INFO  tau.atlas.vildehaye.VHBasestation - standalone mode
+2024-08-25 17:50:43 [main] INFO  tau.atlas.connections.ClientConnection - setup;server=localhost;port=6788;cs-class=class tau.atlas.messages.BaseStationConnectionState;
+
+2024-08-25 17:50:43 [main] ERROR tau.atlas.connections.ClientConnection - connect-failed;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1;msg=Connection refused (Connection refused);
+2024-08-25 17:50:43 [main] INFO  tau.atlas.connections.ClientConnection - connection failed, sleeping for 5 seconds; cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 17:50:45 [Thread-5] INFO  tau.atlas.connections.ServerListener - Binding listener to localhost:6788
+
+2024-08-25 17:50:45 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent intent list tau.atlas.vildehaye.IntentMessage@117cd4b
+2024-08-25 17:50:45 [main] WARN  tau.atlas.vildehaye.VHBasestation - No radioSetup given
+2024-08-25 17:50:45 [main] INFO  tau.atlas.vildehaye.VHBasestation - sent setups list [DATA_433_92, DATA_CH_120, DATA_CH_75, ID_433_92, ID_CH_120, ID_CH_75]
+2024-08-25 17:50:45 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket starting to listen (with timeout)
+
+2024-08-25 17:50:45 [main] INFO  tau.atlas.vildehaye.SerialConnection - creating a conventional serial port
+2024-08-25 17:50:45 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:50:45 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - opening the serial port
+2024-08-25 17:50:45 [Thread-6] INFO  tau.atlas.vildehaye.SerialConnection - setting up the serial port
+2024-08-25 17:50:45 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (pre-setup) is 9600
+
+2024-08-25 17:50:45 [Thread-6] INFO  tau.atlas.vildehaye.SerialPortRXTX - baud rate (post-setup) is 115200
+
+2024-08-25 17:50:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - Connection accepted!
+2024-08-25 17:50:48 [Timer-0] INFO  tau.atlas.connections.ClientConnection - connected;server=localhost;port=6788;cs=class tau.atlas.messages.BaseStationConnectionState: id=-1
+2024-08-25 17:50:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept: creating connection
+2024-08-25 17:50:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - accept loop ended
+2024-08-25 17:50:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:51:04 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601064.681 -1 7001001027 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:09 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601069.284 -1 7001001021 { BS_RSSI: -66.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:14 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601074.682 -1 7001001027 { BS_RSSI: -61.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:16 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601076.727 -1 7001001018 { BS_RSSI: -65.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:19 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601079.283 -1 7001001021 { BS_RSSI: -64.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:24 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601084.680 -1 7001001027 { BS_RSSI: -63.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:26 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601086.727 -1 7001001018 { BS_RSSI: -71.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:29 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601089.282 -1 7001001021 { BS_RSSI: -67.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:34 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601094.679 -1 7001001027 { BS_RSSI: -62.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:39 [Thread-6] INFO  tau.atlas.vildehaye.VHBasestation - Message: 1724601099.282 -1 7001001021 { BS_RSSI: -67.0, TAG_STATE: 00 0 0 needs_config?=false, }
+2024-08-25 17:51:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket accept timeout on port 6788
+2024-08-25 17:51:48 [Thread-5] INFO  tau.atlas.connections.ServerListener - Server socket calling accept
+2024-08-25 17:51:59 [Thread-8] INFO  tau.atlas.vildehaye.SerialPortRXTX - INTERRUPTING...
+
+
+
