@@ -4,7 +4,7 @@ import socket
 import os
 
 # here will be new path
-path = "D:\FathersWork\AtlasSystem\server_files"
+path = "server_files"
 
 
 s = socket.socket()
